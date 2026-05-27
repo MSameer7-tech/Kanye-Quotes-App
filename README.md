@@ -1,11 +1,29 @@
+<div align="center">
+
 # 🎤 Kanye Quotes App
 
-A fun desktop application that serves up random Kanye West quotes at the click of a button. Built with Python and Tkinter, this app fetches real-time quotes from the [Kanye REST API](https://api.kanye.rest) and displays them in a stylish speech bubble interface.
+**Get random Kanye West wisdom — one click at a time.**
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange)
-![API](https://img.shields.io/badge/API-Kanye%20REST-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+<br/>
+
+<img src="demo.gif" alt="Kanye Quotes App Demo" width="380"/>
+
+<br/>
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+&nbsp;&nbsp;
+[![Tkinter](https://img.shields.io/badge/GUI-Tkinter-F7931E?style=flat-square)](https://docs.python.org/3/library/tkinter.html)
+&nbsp;&nbsp;
+[![API](https://img.shields.io/badge/API-kanye.rest-F4D03F?style=flat-square)](https://api.kanye.rest)
+&nbsp;&nbsp;
+[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)](LICENSE)
+
+<br/>
+
+*A fun desktop app built with Python & Tkinter that fetches real-time quotes from the [Kanye REST API](https://api.kanye.rest) and displays them in a stylish speech-bubble interface.*
+
+</div>
 
 ---
 
