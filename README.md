@@ -18,7 +18,17 @@ A fun desktop application that serves up random Kanye West quotes at the click o
 
 ## 📸 Preview
 
-The app displays a yellow speech bubble card with the quote rendered in bold white text. Tap the Kanye emoji button at the bottom to load a fresh quote!
+<p align="center">
+  <img src="initial-screen.png" alt="Initial Screen" width="280"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="quote.png" alt="Quote Loaded" width="280"/>
+</p>
+
+### 🎬 Demo
+
+<p align="center">
+  <img src="demo.gif" alt="App Demo" width="350"/>
+</p>
 
 ## 🛠️ Tech Stack
 
@@ -46,7 +56,7 @@ cd Kanye-Quotes-App
 ### 2. Install dependencies
 
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 > **Note:** `tkinter` comes pre-installed with most Python distributions. If it's missing, install it via your system's package manager (e.g., `sudo apt-get install python3-tk` on Ubuntu/Debian, or `brew install python-tk` on macOS with Homebrew).
@@ -61,10 +71,17 @@ python main.py
 
 ```
 kanye-quotes/
-├── main.py            # Application entry point & GUI logic
-├── background.png     # Speech bubble background image
-├── kanye.png          # Kanye avatar button image
-└── README.md          # You are here!
+├── main.py              # Application entry point & GUI logic
+├── background.png       # Speech bubble background image
+├── kanye.png            # Kanye avatar button image
+├── initial-screen.png   # Screenshot – initial state
+├── quote.png            # Screenshot – quote loaded
+├── demo.mov             # Screen recording (source)
+├── demo.gif             # Animated demo for README
+├── requirements.txt     # Python dependencies
+├── LICENSE              # MIT License
+├── .gitignore           # Git ignore rules
+└── README.md            # You are here!
 ```
 
 ## 🔍 How It Works
